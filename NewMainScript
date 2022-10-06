@@ -1,0 +1,13 @@
+game.StarterGui:SetCore("SendNotification", {
+    Title = "PRIVATE Config Loaded";
+    Text = "Script make by SubToRobloxPlaysThisYT"; 
+    Duration = 20;
+})
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Credits To 7GrandDad";
+    Text = "Thanks For Executing Skywars WareV4 Private"; 
+    Duration = 20;
+})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CynosaHacks/CentralVapeV4/main/MainScript.lua", true))()
